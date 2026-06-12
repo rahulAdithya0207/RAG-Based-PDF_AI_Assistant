@@ -61,7 +61,11 @@ pdf-ai-assistant/
 ### Use Cases
 
 * Research paper question answering
+  
 * Document search and summarization
+  
 * Technical manual assistance
+  
 * Knowledge base creation
+  
 * Academic study support
