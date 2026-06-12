@@ -44,7 +44,7 @@ pdf-ai-assistant/
 
 └── my_database/ # Persistent ChromaDB storage
 
-How It Works
+#How It Works
 
 1. Upload or place a PDF document in the project directory.
 
@@ -58,7 +58,7 @@ How It Works
 
 6. Send the retrieved context to Gemini to generate a grounded answer.
 
-Use Cases
+#Use Cases
 
 * Research paper question answering
 * Document search and summarization
