@@ -1,7 +1,7 @@
 ### RAG-Based-PDF_AI_Assistant
 A context aware Retrieval-Augmented Generation (RAG) application allows users to ask questions about the PDF documents of a particular organisation and recieve factual answers related to the particular PDF. This project extracts text from pdf in form of chunks convert them into vector embeddings and stores them in local vector database, retrieves the most relevant vector w.r.t the query and uses as a context for the query. Google gemini is used to generate respose for the query strictly based on the retrieved context.
 
-Key Features
+### Key Features
 
 * Extracts text from PDF documents using pypdf.
 
@@ -17,7 +17,7 @@ Key Features
 
 * Provides a simple web interface built with Streamlit.
 
-Tech Stack
+### Tech Stack
 
 Frontend : Streamlit
 
@@ -28,7 +28,7 @@ Vector Database : ChromaDB
 PDF Processing : pypdf
 
 
-Project Structure
+### Project Structure
 
 pdf-ai-assistant/
 
@@ -44,7 +44,7 @@ pdf-ai-assistant/
 
 └── my_database/ # Persistent ChromaDB storage
 
-#How It Works
+### How It Works
 
 1. Upload or place a PDF document in the project directory.
 
@@ -58,7 +58,7 @@ pdf-ai-assistant/
 
 6. Send the retrieved context to Gemini to generate a grounded answer.
 
-#Use Cases
+### Use Cases
 
 * Research paper question answering
 * Document search and summarization
